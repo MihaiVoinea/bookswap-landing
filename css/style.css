@@ -1,0 +1,50 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8em;
+}
+
+.container {
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+}
+
+header {
+  grid-column-start: 3;
+  grid-column-end: 13;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+
+header img {
+  width: 200px;
+  height: auto;
+}
+
+header nav {
+  text-align: right;
+}
+
+header nav a {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+#cont-button {
+  color: black;
+}
+
+.cta-button {
+  padding: 12px 25px 12px 25px;
+  background: #e23939;
+  color: white;
+  border-radius: 100px;
+  margin-left: 50px;
+}
