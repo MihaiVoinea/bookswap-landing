@@ -88,3 +88,11 @@ header nav a:last-child {
 #first .left-content .cta-button {
   padding: 18px 35px 18px 35px;
 }
+
+img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
