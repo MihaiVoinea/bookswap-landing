@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.8em;
+  font-size: 1.8rem;
 
   margin: 30px auto;
 }
@@ -58,17 +58,24 @@ header nav a:last-child {
 
 #first h1 {
   margin-top: 250px;
-  font-size: 64px;
-  font-weight: 300;
   margin-bottom: 30px;
   line-height: 130%;
 }
 
-#first p {
+h1 {
+  font-size: 6.4rem;
+  font-weight: 300;
+}
+p {
   color: rgba(0, 0, 0, 0.8);
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 130%;
+}
+
+#first p {
   width: 80%;
   margin-bottom: 60px;
-  line-height: 130%;
 }
 
 #first .left-content {
@@ -95,4 +102,78 @@ img {
   -moz-user-select: none;
   -o-user-select: none;
   user-select: none;
+}
+
+#second {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  margin-top: 420px;
+  position: relative;
+}
+
+#second .content {
+  display: flex;
+
+  grid-column-start: 3;
+  grid-column-end: 13;
+}
+
+#second .content div {
+  width: 600px;
+  height: 650px;
+  background: #ffffff;
+  box-shadow: 0px 3px 20px rgba(54, 64, 82, 0.18);
+  border-radius: 15px;
+  margin: auto;
+  justify-content: center;
+}
+
+#second .left img {
+  width: 308px;
+  height: auto;
+  margin: 60px auto;
+  display: block;
+}
+
+#second .right img {
+  width: 488px;
+  height: auto;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 3.6rem;
+}
+
+#second h2,
+#second p,
+#second .learn-more {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#second p {
+  margin-bottom: 40px;
+}
+
+.learn-more {
+  color: #e23939;
+  text-decoration: none;
+}
+
+.icon {
+  display: inline-block !important;
+  width: 1em !important;
+  height: 1em !important;
+  margin: 0 !important;
+}
+
+.learn-more .icon {
+  position: relative;
+  top: 3px;
+  left: 3px;
 }

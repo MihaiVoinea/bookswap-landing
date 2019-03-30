@@ -2,10 +2,30 @@
   position: absolute;
   top: 0;
   right: 0;
+  z-index: -1;
 }
 
 #Vector2 {
   position: absolute;
   top: 768px;
   left: 0;
+  z-index: -1;
+}
+
+#Vector3 {
+  position: absolute;
+  width: 429.7px;
+  height: 602.73px;
+  left: 194.99px;
+  top: 863.27px;
+  z-index: -1;
+}
+
+#Vector4 {
+  position: absolute;
+  width: 970px;
+  height: auto;
+  right: 0px;
+  top: 1250px;
+  z-index: -1;
 }
